@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
     margin: 0%;
     padding: 0%;
     font-family: 'Bruno Ace SC' , sans-serif;
     color: rgb(255, 252, 252);
 
+} 
+body {
+background-image: url(./img/6058dabf0941f1d065017b9722a900f0.jpg);
+background-size: cover;
+width: 100vw;
+height: 100vh;
+
 }
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -51,6 +58,6 @@ footer p {
 }
 nav a:hover {
     color: rgb(0, 0, 0);
-    background-color: white;
+    background-color: rgb(5, 219, 16);
 }
 
